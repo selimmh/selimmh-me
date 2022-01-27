@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  @apply bg-gray-100
+  dark:bg-gray-800
+  dark:text-gray-100
+  w-screen
+  h-16
+  fixed 
+  top-0 
+  right-0
+  left-0
+  z-20 
+  px-6
+  md:px-8
+  shadow-xl;
+}
+
+.content {
+  @apply overflow-hidden 
+  my-0 
+  mx-auto 
+  h-full 
+  w-full
+  flex 
+  items-center 
+  justify-between
+  max-w-[1920px];
+}
+
+.logo {
+  @apply font-semibold
+  flex
+  flex-row
+  items-center
+  space-x-3
+  cursor-pointer
+  hover:scale-105
+  ease-out
+  duration-300;
+}
+
+.navigation {
+  @apply text-gray-800 
+  dark:text-gray-100 
+  top-0 
+  right-full 
+  bottom-0 
+  w-full 
+  h-screen 
+  fixed 
+  flex 
+  flex-col 
+  justify-center 
+  items-center
+  md:flex-row 
+  md:bg-transparent 
+  md:w-auto 
+  md:h-auto 
+  md:static
+  opacity-100
+  backdrop-blur-3xl
+  md:backdrop-blur-0
+  translate-x-0
+  translate-y-0
+  transition-transform
+  duration-300;
+}
+
+.isMenu {
+  @apply overflow-hidden
+  translate-x-full;
+}
+
+.list {
+  @apply p-0 
+  flex 
+  flex-col
+  items-center 
+  md:flex-row;
+}
+
+.item {
+  @apply py-3 
+  px-3
+  rounded-xl 
+  cursor-pointer
+  ease-out
+  transition-all
+
+  active:bg-gray-800
+  active:text-gray-100
+  dark:active:bg-gray-100
+  dark:active:text-gray-800
+  hover:scale-105;
+}
+
+.toggle {
+  @apply cursor-pointer 
+  flex 
+  items-center 
+  text-3xl 
+  relative 
+  md:hidden
+  ease-in
+  duration-300
+  
+  hover:text-red-500;
+}
+
+.toggleDark {
+  @apply text-2xl
+  m-4
+  p-2
+  cursor-pointer
+  hover:scale-105
+  ease-out
+  duration-300
+  rounded-lg
+  border-2
+  border-gray-800
+  dark:border-gray-100;
+}
