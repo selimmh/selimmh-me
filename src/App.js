@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { HashLoader } from "react-spinners";
 
 import Navbar from "./components/Navbar/Navbar";
