@@ -46,7 +46,7 @@ function Navbar() {
           <div className="logo">
             <div
               onClick={() => {
-                navigate("/");
+                navigate("/home");
               }}
             >
               selimmh
@@ -59,7 +59,7 @@ function Navbar() {
               <div
                 className="item"
                 onClick={() => {
-                  navigate("/");
+                  navigate("/home");
                 }}
               >
                 Home

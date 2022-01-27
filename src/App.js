@@ -30,7 +30,7 @@ function App() {
             <div className="h-auto w-11/12">
               <Navbar />
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<Error />} />
