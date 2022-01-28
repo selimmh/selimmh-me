@@ -31,10 +31,10 @@ function App() {
             <div className="h-auto w-11/12">
               <Navbar />
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<Error />} />
+                <Route path="/selimmh-me" element={<Home />} />
+                <Route path="/selimmh-me/projects" element={<Projects />} />
+                <Route path="/selimmh-me/contact" element={<Contact />} />
+                <Route path="/selimmh-me/*" element={<Error />} />
               </Routes>
             </div>
           </div>
