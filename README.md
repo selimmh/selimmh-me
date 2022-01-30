@@ -12,7 +12,7 @@ Personal Website to showcase my work. Check it out [Here](https://selimmh.me/)
 
 ### Preview
 
-![Preview 1](preview//preview1.gif)
+![Preview 1](preview/preview.gif)
 
 #
 
@@ -21,7 +21,7 @@ Personal Website to showcase my work. Check it out [Here](https://selimmh.me/)
 Hi 👋  
 I am _Selim_
 
-My website - [www.selimm.me](https://selimmh.me)  
+My website - [www.selimmh.me](https://selimmh.me)  
 Twitter - [@selimmh0](https://twitter.com/selimmh0)  
 LinkedIn - [@selimmh](https://www.linkedin.com/in/selimmh/)  
 E-mail - [[@selim.mht@gmail.com](https://mail.google.com/)
