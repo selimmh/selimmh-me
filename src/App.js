@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { HashLoader } from "react-spinners";
 
@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 0);
   }, []);
 
   return (
@@ -26,7 +26,7 @@ function App() {
           <HashLoader size={70} color={"#111827"} loading={loading} />
         </div>
       ) : (
-        <Router hashType="hashbang" basename="/selimmh-me">
+        <Router basename="/selimmh-me">
           <div className="bg-gray-100 text-gray-800 flex justify-center items-center dark:bg-gray-800 dark:text-gray-100">
             <div className="h-auto w-11/12">
               <Navbar />
