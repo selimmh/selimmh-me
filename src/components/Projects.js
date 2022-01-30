@@ -27,7 +27,7 @@ function Projects() {
       >
         <Table
           title="COVIDDATA.RO"
-          description="Website for Romania's daily Covid status ."
+          description="Website for Romania's daily Covid status"
           linkLive="https://selimmh.github.io/coviddata-ro/"
           linkSource="https://github.com/selimmh/coviddata-ro"
           previewImage={coviddata}
@@ -41,7 +41,7 @@ function Projects() {
         />
         <Table
           title="TIC TAC TOE"
-          description="Mini Tic Tac Toe game using web tools."
+          description="Mini Tic Tac Toe game using web tools"
           linkLive="https://selimmh.github.io/tic-tac-toe/"
           linkSource="https://github.com/selimmh/tic-tac-toe/"
           previewImage={tictactoe}
