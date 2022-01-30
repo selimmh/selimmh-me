@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 function Error() {
   let navigate = useNavigate();
   useEffect(() => {
-    navigate("/selimmh-me");
+    navigate("/");
   }, []);
   return (
     <div className="w-full h-screen flex justify-center items-center">

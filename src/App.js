@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import { HashLoader } from "react-spinners";
 
@@ -26,15 +26,15 @@ function App() {
           <HashLoader size={70} color={"#111827"} loading={loading} />
         </div>
       ) : (
-        <Router>
+        <Router hashType="hashbang" basename="/selimmh-me">
           <div className="bg-gray-100 text-gray-800 flex justify-center items-center dark:bg-gray-800 dark:text-gray-100">
             <div className="h-auto w-11/12">
               <Navbar />
               <Routes>
-                <Route path="/selimmh-me" element={<Home />} />
-                <Route path="/selimmh-me/projects" element={<Projects />} />
-                <Route path="/selimmh-me/contact" element={<Contact />} />
-                <Route path="/selimmh-me/*" element={<Error />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/*" element={<Error />} />
               </Routes>
             </div>
           </div>
