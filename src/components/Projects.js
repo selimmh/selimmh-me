@@ -27,7 +27,7 @@ function Projects() {
       >
         <Table
           title="COVIDDATA.RO"
-          description="Website for Romania's daily Covid status."
+          description="Website for Romania's daily Covid status ."
           linkLive="https://selimmh.github.io/coviddata-ro/"
           linkSource="https://github.com/selimmh/coviddata-ro"
           previewImage={coviddata}
