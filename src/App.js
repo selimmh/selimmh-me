@@ -15,15 +15,17 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 2000);
   }, []);
 
   return (
     <>
       {loading ? (
-        <div className="flex flex-col items-center justify-center w-screen h-screen bg-gray-100">
-          <div className="text-black p-5">Just a second</div>
-          <HashLoader size={70} color={"#111827"} loading={loading} />
+        <div className="flex w-screen h-screen bg-gray-100">
+          <div className="w-full h-5/6 flex flex-col items-center justify-center scale-75 md:scale-100 space-y-20">
+            <div className="text-2xl">Just a second</div>
+            <HashLoader size={70} color={"#111827"} loading={loading} />
+          </div>
         </div>
       ) : (
         <Router basename="/selimmh-me">

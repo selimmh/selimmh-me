@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Navbar.css";
 
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import { RiMoonClearLine } from "react-icons/ri";
 import { FiSun } from "react-icons/fi";
-import "./Navbar.css";
+
 import useDarkMode from "../../hooks/useDarkMode";
 
 function Navbar() {
@@ -80,14 +81,11 @@ function Navbar() {
               >
                 Contact
               </div>
-              <div className="toggleDark">
+              <div onClick={toggleDarkMode} className="toggleDark">
                 {isDarkMode ? (
-                  <FiSun onClick={toggleDarkMode} className=" text-gray-100" />
+                  <FiSun className="text-gray-100" />
                 ) : (
-                  <RiMoonClearLine
-                    onClick={toggleDarkMode}
-                    className=" text-gray-800"
-                  />
+                  <RiMoonClearLine className=" text-gray-800" />
                 )}
               </div>
             </div>

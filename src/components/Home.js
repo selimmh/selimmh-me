@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import Shape from "../3d/shape";
+
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineFilePdf } from "react-icons/ai";
+
 import { TweenMax, Power3 } from "gsap";
 
 function Home() {
@@ -40,9 +42,9 @@ function Home() {
           className="text-md md:text-xl font-light tracking-wider"
           ref={(el) => (description = el)}
         >
-          Lorem ipsum dolor sit amet, <br />
-          consectet uradipiscing elit. Etiam <br />
-          rhoncus in lectus quam duis vitae, etiam.
+          I like to develop cool stuff
+          <br />
+          using React <br />
         </div>
 
         <div className="flex space-x-5" ref={(el) => (buttons = el)}>
