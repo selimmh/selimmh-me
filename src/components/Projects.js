@@ -36,7 +36,7 @@ function Projects() {
           title="PERSONAL WEBSITE"
           description="Personal Website to showcase my work"
           linkLive="#"
-          linkSource="#"
+          linkSource="https://github.com/selimmh/selimmh-me"
           previewImage={portfolio}
         />
         <Table
