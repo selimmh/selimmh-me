@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/selimmh-me/static/css/main.7ad77e51.css",
-    "main.js": "/selimmh-me/static/js/main.11fe7a34.js",
+    "main.js": "/selimmh-me/static/js/main.458a5cc9.js",
+    "static/media/cv.pdf": "/selimmh-me/static/media/cv.a0dbb3ce47fe50af1950.pdf",
+    "static/media/faceModel.png": "/selimmh-me/static/media/faceModel.23d08cbc027fcb60d92e.png",
     "static/media/coviddata.jpeg": "/selimmh-me/static/media/coviddata.d2f8aa3d62368e428935.jpeg",
     "static/media/portfolio.jpeg": "/selimmh-me/static/media/portfolio.60cfb99cc24725a45071.jpeg",
     "static/media/tictactoe.jpeg": "/selimmh-me/static/media/tictactoe.55148785cc71d1cd63e6.jpeg",
     "index.html": "/selimmh-me/index.html",
     "main.7ad77e51.css.map": "/selimmh-me/static/css/main.7ad77e51.css.map",
-    "main.11fe7a34.js.map": "/selimmh-me/static/js/main.11fe7a34.js.map"
+    "main.458a5cc9.js.map": "/selimmh-me/static/js/main.458a5cc9.js.map"
   },
   "entrypoints": [
     "static/css/main.7ad77e51.css",
-    "static/js/main.11fe7a34.js"
+    "static/js/main.458a5cc9.js"
   ]
 }
