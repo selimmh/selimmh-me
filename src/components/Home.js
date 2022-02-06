@@ -6,6 +6,8 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineFilePdf } from "react-icons/ai";
 
+import cv from "./../docs/cv.pdf";
+
 import { TweenMax, Power3 } from "gsap";
 
 function Home() {
@@ -57,7 +59,9 @@ function Home() {
           <a href="https://www.linkedin.com/in/selimmh/" target="blank">
             <AiFillLinkedin className="text-3xl hover:scale-110 cursor-pointer transition-all duration-300 ease-out"></AiFillLinkedin>
           </a>
-          <AiOutlineFilePdf className="text-3xl hover:scale-110 cursor-pointer transition-all duration-300 ease-out"></AiOutlineFilePdf>
+          <a href={cv} target="blank">
+            <AiOutlineFilePdf className="text-3xl hover:scale-110 cursor-pointer transition-all duration-300 ease-out"></AiOutlineFilePdf>
+          </a>
         </div>
       </div>
 

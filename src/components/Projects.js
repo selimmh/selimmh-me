@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Table from "./Tables/Table";
 import LoadingTable from "./Tables/LoadingTable";
 
-import { coviddata, portfolio, tictactoe } from "../preview";
+import { coviddata, portfolio, tictactoe, faceModel } from "../img";
 
 import { TweenMax, Power3 } from "gsap";
 
@@ -31,6 +31,13 @@ function Projects() {
           linkLive="https://selimmh.github.io/coviddata-ro/"
           linkSource="https://github.com/selimmh/coviddata-ro"
           previewImage={coviddata}
+        />
+        <Table
+          title="COMPUTER VISION"
+          description="Computer Vision software to detect objects, human hand and to render human face landmark"
+          linkLive="https://selimmh.github.io/computer-vision/"
+          linkSource="https://github.com/selimmh/computer-vision/"
+          previewImage={faceModel}
         />
         <Table
           title="PERSONAL WEBSITE"
